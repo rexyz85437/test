@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <script src="../static/googlemap.js"></script>
+    <title>Carsgo</title>
+</head>
+<body>
+    <nav><a class=navlink href="{{url_for('index')}}">Home</a>|<a class=navlink href="{{url_for('showdb')}}">SHOWDB</a>|<a class=navlink href="{{url_for('googlemap')}}">googlemap</a>|
+    <hr>
+    {%block content%}{%endblock%}
+</body>
+</html>

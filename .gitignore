@@ -1,0 +1,5 @@
+__pycache__/
+.DS_Store
+.dbdata/
+env/
+db_data/
